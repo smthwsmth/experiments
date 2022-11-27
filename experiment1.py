@@ -6,3 +6,6 @@ if len(num) == 3:
 elif len(num) > 3:
     ans = (int(num) // 10**(len(num)-3))%10
 print(ans)
+
+'''commitnew'''
+'''f'''
