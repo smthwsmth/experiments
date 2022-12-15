@@ -1,3 +1,5 @@
+import time
+
 def deliting(mi, group):
     if isinstance(group, set):
         group.discard(mi)
@@ -32,6 +34,7 @@ def sort_priority(values, group):
             
 numbers = [8, 3, 1, 2, 5, 4, 7, 6]
 group = {5, 7, 2, 3}
+time.sleep(5)
 sort_priority(numbers, group)
 
 print(numbers)
